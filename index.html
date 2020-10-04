@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/devEd course/Communicating swings/style.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header id="main-head" class="main-head">
+        <nav id="nav-links" class="nav-links">
+          <h1 id="logo">Communicating Swings</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li>
+              <button><a href="#contact">Contact</a></button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section id="home" class="home">
+        <div class="cards">
+          <div id="card1" class="card">
+            <h1>Nasa Image Of The Day</h1>
+            <p id="card1-p"></p>
+          </div>
+          <div id="card2" class="card">
+            <h1>ISS Info</h1>
+            <p id="latitude">Latitude:</p>
+            <p id="longitude">Longitude:</p>
+          </div>
+
+          <div id="card3" class="card">
+            <h1>Altitude Of ISS</h1>
+            <p id="altitude"></p>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="about-text">
+          <h1>Satellite</h1>
+          <p>
+            A satellite is an object in space that orbits or circles around a bigger object. There are two kinds of satellites: natural (such as the moon orbiting the Earth) or artificial (such as the International Space Station orbiting the Earth).
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <header class="contact-head">
+          <div class="heart">
+            <span><h3>We'd</h3></span>
+            <span
+              ><img
+                width="100px"
+                height="60px"
+                src="/devEd course/Communicating swings/heart.svg"
+                alt=""
+            /></span>
+            <span><h3>To Help</h3></span>
+          </div>
+        </header>
+        <div class="form-wrapper">
+          <header class="form-head">
+            <h2>Contact</h2>
+          </header>
+          <form action="https://formspree.io/f/xvovgypo" method="POST">
+            <div class="name-form">
+              <label for="name">name:</label>
+              <input id="name" type="text" name="name" required />
+            </div>
+            <div class="email-form">
+              <label for="email">email:</label>
+              <input id="email" type="email" name="_replyto" required />
+            </div>
+            <button value="send" type="submit">submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <h5>Swings &copy;</h5>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="/devEd course/website2/1589481337/Travelly/icons/twitter.svg"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="/devEd course/website2/1589481337/Travelly/icons/youtube.svg"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="/devEd course/website2/1589481337/Travelly/icons/instagram.svg"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="/devEd course/website2/1589481337/Travelly/icons/github-logo.svg"
+                alt=""
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="/devEd course/Communicating swings/main.js"></script>
+  </body>
+</html>
