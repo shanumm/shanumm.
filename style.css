@@ -36,7 +36,7 @@ button:hover {
 
 .main-head {
   background-color: #0f3057;
-  background: url("/devEd course/Communicating swings/spacex-693229_1280.jpg");
+  background: url("spacex-693229_1280.jpg");
   background-position: center;
   color: white;
   position: sticky;
@@ -102,7 +102,7 @@ nav ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("/devEd course/Communicating swings/satellite-3977165_1920.jpg"),
+  background: url("satellite-3977165_1920.jpg"),
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
 }
 .heart {
@@ -218,7 +218,7 @@ form button {
   background-color: #27374b;
 }
 #card2 {
-  background: url("/devEd course/Communicating swings/usa-532939_1920.jpg")
+  background: url("usa-532939_1920.jpg")
     no-repeat center;
   background-size: cover;
   transition: all 0.3s;
@@ -258,7 +258,7 @@ form button {
 }
 
 #card3 {
-  background: url("/devEd course/Communicating swings/rocket-1245696_1920.jpg")
+  background: url("rocket-1245696_1920.jpg")
     no-repeat center;
   background-size: cover;
   transition: all 0.3s;
@@ -296,7 +296,7 @@ form button {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0)
     ),
-    url("/devEd course/Communicating swings/pexels-pixabay-33153.jpg") no-repeat
+    url("pexels-pixabay-33153.jpg") no-repeat
       center;
   background-size: cover;
 }
